@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #849CFA;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .1rem solid black;
+    padding: 1.5rem;
+    margin-bottom: 0;
+}
+
+.retorno{
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+}
+.seta{
+    position: absolute;
+    left: .5rem;
+    height: 3rem;
+}
+.config{
+    position: absolute;
+    right: .5rem;
+    height: 3rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 5.6rem;
+}
+
+.results{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-bottom: .1rem solid black;
+    height: 3rem;
+    padding: 0.1rem;
+}
+.seta_baixo{
+    position:absolute;
+    right: .5rem;
+    height: 1.5rem;
+}
+
+.Nutricionistas{
+    font-size: 1.2rem;
+}
+
+.foto_medico{
+    height: 4rem;
+}
+
+.info_medico{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    left: 5rem;
+}
+
+.icon_image{
+    height: 3rem;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+}
+
+.icone_ilustra{
+    height: 1rem;
+}
+
+.lista_opcoes{
+    width: 100%;
+
+}
+.opcao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-bottom: .1rem solid black;
+    padding: 0.3rem;
+}
+
+.classificacoes{
+    position: absolute;
+    right: .5rem
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-top: .2rem solid black;
+    margin-top:0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.home{
+    height: 3rem;
+}
+.search{
+    height: 3rem;
+}
+.heart{
+    height: 4.5rem;
+}
+.agenda{
+    height: 3rem;
+}
+.plate{
+    height: 4rem;
+    margin-right: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

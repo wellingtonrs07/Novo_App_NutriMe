@@ -1,0 +1,175 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #849CFA;
+}
+
+main{
+    width: 100%;
+    height: 60%;
+    margin-top: 1.5rem;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    border-bottom: 0.1rem solid black;
+}
+
+.boas_vindas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: end;
+    padding-bottom: .2rem;
+}
+
+
+.imagem_perfil{
+    height: 2rem;
+}
+
+.bem_vindo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.inicio_busca{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;   
+}
+
+.frase_busca{
+    margin-left: .3rem;
+    font-size: 1.2rem;
+}
+
+.itens_pesquisa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    padding: .2rem;
+    width: 100%;
+    height: 40%;
+    margin-top: 1.1rem;
+}
+
+
+.imagem_central{
+    background-color: white;
+    border: .2rem solid  black;
+    height: 3.5rem;
+}
+
+.desc_pesquisa{
+    margin-top: .3rem;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: .5rem;
+    font-family: 'Noto Serif', serif;
+}
+
+.lembretes{
+    background-color: white;
+    border: .1rem solid black;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.superior_lembretes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+.info_dia{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: .5rem;
+}
+
+.lista_lembretes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+
+.imagem_central3{
+    height: 2rem;
+}
+
+.imagem_icon{
+    height: 1.5rem;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-top: .2rem solid black;
+    margin-top:0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.home{
+    height: 3rem;
+}
+.search{
+    height: 3rem;
+}
+.heart{
+    height: 4.5rem;
+}
+.agenda{
+    height: 3rem;
+}
+.plate{
+    height: 4rem;
+    margin-right: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo {
+    font-family: 'Noto Serif', serif;
+}

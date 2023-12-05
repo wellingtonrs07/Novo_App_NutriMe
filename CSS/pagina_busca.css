@@ -1,0 +1,187 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #849CFA ;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .1rem solid black;
+    padding: 1.5rem;
+    margin-bottom: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 28rem;
+    margin-top: 1.5rem;
+}
+.retorno{
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+}
+.seta{
+    position: absolute;
+    left: -0.5rem;
+    height: 3rem;
+}
+.config{
+    position: absolute;
+    right: .5rem;
+    height: 3rem;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+
+.digita_busca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+.lupa{
+    height: 3rem;
+}
+.digita_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.localidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icones_localidade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.item_localidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.imagem_localidade{
+    height: 3rem;
+    background-color: white;
+    border: .2rem solid black;
+}
+
+.especialidade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.texto_especialidade{
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 1.2rem;
+    padding: .3rem;
+}
+
+.preço{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.texto_preço{
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 1.2rem;
+    padding: .3rem;
+}
+
+.Pesquisar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: .5rem;
+    height: 1.2rem;
+    padding: .5rem;
+}
+.texto_pesquisar{
+    font-size: 1.2rem;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-top: .2rem solid black;
+    margin-top:0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.home{
+    height: 3rem;
+}
+.search{
+    height: 3rem;
+}
+.heart{
+    height: 4.5rem;
+}
+.agenda{
+    height: 3rem;
+}
+.plate{
+    height: 4rem;
+    margin-right: 0.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type="range"] {
+    accent-color: #FFA600;
+}
+
+  
+input[type="radio"] {
+    accent-color: #FFA600;
+}
+
+.select{
+    background: #FFA600;
+    color: #FFA600;
+}
+  

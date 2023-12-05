@@ -1,0 +1,46 @@
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.space_between{
+    justify-content: space-between;
+}
+.align_center{
+    display: flex;
+    align-items: center;
+}
+
+.justify_center{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna-spacebet{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fonte_titulo{
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: black;
+}
+
+.fonte_texto{
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #849cfa;
+    
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .1rem solid black;
+    padding: 1.5rem;
+    margin-bottom: 0;
+}
+
+.seta{
+    position: absolute;
+    left: -0.5rem;
+    height: 3rem;
+}
+
+.config{
+    position: absolute;
+    right: .5rem;
+    height: 3rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Noto Serif', serif;
+}
+
+.retorno{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 33rem;
+    
+}
+
+img.icone-dieta{
+    border-radius: 5rem;
+    height: 10rem;
+    
+}
+
+img.icone-agenda{
+    border-radius: 1rem;
+    height: 8.5rem;
+}
+
+section{
+    position: relative;
+    top: -2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+h2{
+    margin: .3rem;
+    padding: .2rem;
+    background-color: white;
+    border: .1rem solid black;
+    border-radius: 1rem;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-top: .3rem solid #3F56B0;
+    margin-top:0;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    border-radius: 0.5rem;
+}
+
+.home{
+    height: 3rem;
+}
+
+.search{
+    height: 3rem;
+}
+
+.heart{
+    height: 4.5rem;
+}
+
+.agenda{
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.plate{
+    height: 4rem;
+    margin-right: .5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.dieta {
+    margin-bottom: 2rem;
+}
